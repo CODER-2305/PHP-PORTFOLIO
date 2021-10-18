@@ -3,11 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-.footer{
+body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: auto;
+    min-height: 100vh;
     background: #1e2759;
 }
 ul {
@@ -28,6 +28,7 @@ ul li a{
     display: inline-block;
     padding: 20px 30px;
     z-index: 1000;
+    backdrop-filter: blur(15px);
 }
 ul li a ion-icon{
     font-size: 2.5em;
@@ -35,7 +36,68 @@ ul li a ion-icon{
     opacity: 0.25;
     transition: 0.5s;
 }
-ul li:hover a ion-icon{
+ul li.active a ion-icon{
     opacity: 1;
     
 }
+#block{
+    position: absolute;
+    top: 0;
+    transition: 0.7s;
+    z-index: 1;
+}
+#block::before{
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 40px;
+    background: #5da6ff;
+    box-shadow: 0 0 15px #5da6ff,
+    0 0 30px #5da6ff,
+    0 0 45px #5da6ff,
+    0 0 60px #5da6ff;
+    border-radius: 8px;
+}
+ ul li:nth-child(1).active ~ #block::before{
+     background: #5da6ff;
+     box-shadow: 0 0 15px #5da6ff,
+     0 0 30px #5da6ff,
+     0 0 45px #5da6ff,
+     0 0 60px #5da6ff;
+     transition: 0.5s;
+ }
+ ul li:nth-child(2).active ~ #block::before{
+     background: #ff0;
+     box-shadow: 0 0 15px #ff0,
+     0 0 30px #ff0,
+     0 0 45px #ff0,
+     0 0 60px #ff0;
+     transition: 0.5s;
+ }
+ ul li:nth-child(3).active ~ #block::before{
+     background: #0f0;
+     box-shadow: 0 0 15px #0f0,
+     0 0 30px #0f0,
+     0 0 45px #0f0,
+     0 0 60px #0f0;
+     transition: 0.5s;
+ }
+ ul li:nth-child(4).active ~ #block::before{
+     background: #df2fff;
+     box-shadow: 0 0 15px #df2fff,
+     0 0 30px #df2fff,
+     0 0 45px #df2fff,
+     0 0 60px #df2fff;
+     transition: 0.5s;
+ }
+ ul li:nth-child(5).active ~ #block::before{
+     background: #ff308f;
+     box-shadow: 0 0 15px #ff308f,
+     0 0 30px #ff308f,
+     0 0 45px #ff308f,
+     0 0 60px #ff308f;
+     transition: 0.5s;
+ }
