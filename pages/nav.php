@@ -10,7 +10,7 @@
 </head>
 <header>
 <nav>
-        <label class="logo">Coder</label>
+        <label class="logo">Scode.uz</label>
         <ul>
             <li><a href="#" class="active">Home</a></li>
             <li><a href="#">About</a></li>

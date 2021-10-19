@@ -13,7 +13,7 @@
 <div class="main">
 <div class="container">
 <div class="typer">
-    <h1>We are the best  team</h1>
+    <h1>Helllo Wellcome to S'code</h1>
     <h2>we are a 
         <div class="animate-text">
             <span>Freelencer</span>

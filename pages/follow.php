@@ -13,11 +13,12 @@
     
     <ul>
         
-        <li><a href="#!"><ion-icon name="home-outline"></ion-icon></a></li>
-        <li><a href="#!"><ion-icon name="person-outline"></ion-icon></a></li>
-        <li><a href="#!"><ion-icon name="add-circle-outline"></ion-icon></a></li>
-        <li><a href="#!"><ion-icon name="settings-outline"></ion-icon></a></li>
-        <li><a href="#!"><ion-icon name="chatbubble-outline"></ion-icon></a></li>
+        <li><a href="#!"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        <li><a href="https://github.com/CODER-2305"><ion-icon name="logo-github"></ion-icon></a></li>
+        <li><a href="#!"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="#!"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        <li><a href="#!"><ion-icon name="logo-youtube"></ion-icon></a></li>
+        <li><a href="../index.php"><ion-icon name="home-outline"></ion-icon></a></li>
         <div id="block"> </div>
     
     </ul>

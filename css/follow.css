@@ -94,6 +94,14 @@ ul li.active a ion-icon{
      transition: 0.5s;
  }
  ul li:nth-child(5).active ~ #block::before{
+     background: #d00000;
+     box-shadow: 0 0 15px #d00000,
+     0 0 30px #d00000,
+     0 0 45px #d00000,
+     0 0 60px #d00000;
+     transition: 0.5s;
+ }
+ ul li:nth-child(6).active ~ #block::before{
      background: #ff308f;
      box-shadow: 0 0 15px #ff308f,
      0 0 30px #ff308f,

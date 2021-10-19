@@ -5,12 +5,9 @@
 }
 body{
     font-family: serif;
-    height: 100vh;
-
-}
-.main{
-   background: url(../svg.png)no-repeat right / cover;
-
+    height: auto;
+   background: url(../img/slider/unique.png);
+   
 }
 .typer{
     display: flex;
@@ -21,6 +18,7 @@ body{
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
+    
 
 }
 .typer h2{
@@ -29,14 +27,14 @@ body{
     font-size: 30px;
     letter-spacing: 4px;
     margin: 0;
-    color: #fefae0;
+    color: #dda15e;
     z-index: 1;
 }
 .typer h1{
     font-size: 40px;
     text-transform: uppercase;
     margin: 0;
-    color: #fefae0;
+    color: #dda15e;
     z-index: 1;
 }
 img{
