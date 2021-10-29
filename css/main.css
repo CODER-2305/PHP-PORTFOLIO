@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 body{
+    background: url(../img/slider/unique.png);
+ 
+   
+}
+.main{
     font-family: serif;
     height: auto;
-   background: url(../img/slider/unique.png);
-   
 }
 .typer{
     display: flex;

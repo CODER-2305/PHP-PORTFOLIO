@@ -14,7 +14,7 @@
         <ul>
             <li><a href="#" class="active">Home</a></li>
             <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="/pages/footer.php">Contact</a></li>
             <li><a href="/pages/follow.php">Follow</a></li>
         </ul>
         <label id="icon">

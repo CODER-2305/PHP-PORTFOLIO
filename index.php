@@ -15,5 +15,5 @@
 <?  
     include_once('./pages/nav.php');
     include_once('./pages/main.php');
-    include_once('./pages/footer.php');
+    // include_once('./pages/footer.php');
 ?>

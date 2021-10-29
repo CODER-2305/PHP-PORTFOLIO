@@ -6,9 +6,10 @@
 }
 body{   
     font-family:serif;
-    height: auto;
+
 }
 nav{
+    height: auto;
     height: 80px;
     width: 100%;
     background: #40916c;

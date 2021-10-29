@@ -8,9 +8,38 @@
     <link rel="stylesheet" href="../css/footer.css?v=<?= time()?>">
 </head>
 <body>
-    <!-- <div class="footer">
-        <button class="btn">Facebook</button>
-        <button class="btn">Git hub</button>
-    </div> -->
+    <footer>
+ <div class="container">
+     <h2>Programming Language on Scode</h2>
+     <div class="skills">
+         <span class="name">Html</span>
+         <div class="percent">
+             <div class="progress" style="width:95%;"></div>
+         </div>
+         <span class="value">95%</span>
+     </div>
+     <div class="skills">
+         <span class="name">Css</span>
+         <div class="percent">
+             <div class="progress" style="width:90%;"></div>
+         </div>
+         <span class="value">90%</span>
+     </div>
+     <div class="skills">
+         <span class="name">Javascript</span>
+         <div class="percent">
+             <div class="progress" style="width:87%;"></div>
+         </div>
+         <span class="value">87%</span>
+     </div>
+     <div class="skills">
+         <span class="name">Php</span>
+         <div class="percent">
+             <div class="progress" style="width:70%;"></div>
+         </div>
+         <span class="value">70%</span>
+     </div>
+ </div>
+ </footer>
 </body>
 </html>

@@ -15,9 +15,9 @@
         
         <li><a href="#!"><ion-icon name="logo-twitter"></ion-icon></a></li>
         <li><a href="https://github.com/CODER-2305"><ion-icon name="logo-github"></ion-icon></a></li>
-        <li><a href="#!"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="https://www.facebook.com/scode.uz"><ion-icon name="logo-facebook"></ion-icon></a></li>
         <li><a href="#!"><ion-icon name="logo-instagram"></ion-icon></a></li>
-        <li><a href="#!"><ion-icon name="logo-youtube"></ion-icon></a></li>
+        <li><a href="https://www.youtube.com/channel/UC7iz3eCnz-4s2aqqw85jWug"><ion-icon name="logo-youtube"></ion-icon></a></li>
         <li><a href="../index.php"><ion-icon name="home-outline"></ion-icon></a></li>
         <div id="block"> </div>
     
